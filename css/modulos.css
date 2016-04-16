@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+
+/* cores 
+	cinza claro		= #E3E4E5
+	cinza médio 	= #A8ACAD
+	cinza escuro 	= #4D4E4F
+	curso azul		= #457FAF
+	curso amarelo 	= #F4CD0B
+	
+	http://www.cssstickyfooter.com/style.css
+	
+ */
+ 
+.duas-colunas{width:50%; float:left}
+ 
+.widget-destaques{
+	float: left;
+    list-style: none outside none;
+    width: 100%;}
+	
+.widget-destaques li{   
+	 background: none repeat scroll 0 0 #E3E4E5;
+    border-top: 1px solid #F8F8F8;
+    float: left;
+    width: 100%;}
+	
+.widget-destaques li .miniatura{ 
+	background: none repeat scroll 0 0 #A8ACAD;
+    display: block;
+    float: left;
+    height: 100%;
+    width: 33%}
+
+.widget-destaques-conteudo{
+	background: none repeat scroll 0 0 #E3E4E5; 
+ 	height: 100%;
+    width: 65%;
+	float: left;
+	padding: 3%;}
+	
+ .widget-destaques-conteudo h4{	color: #4D4E4F}
+ .widget-destaques-conteudo p{	font-size: 0.8em;}
+
+.widget-destaques a {}
+
+/* accordion */
+
+.accordion-tt-modulo{width: 20% !important;}
+.accordion-tt-titulo{}
+
+
+.info-curso-capa{
+	list-style: none outside none;
+	padding: 0; 
+	 font-size: 0.8em;
+	 margin: 0;
+    padding: 15px;
+	text-align: right;}
+
+ .info-curso-capa li{
+	list-style: none outside none;
+	padding: 0; 
+	 font-size: 1em;
+	 margin: 0;
+}
+
+
+.info-interno-curso {   
+	float: left;
+    padding: 15px;
+    width: 100%;}
+	
+ .info-interno-curso .lista-direita, .info-interno-curso .lista-esquerda{
+	list-style: none outside none;
+	padding: 0; 
+	 font-size: 0.8em;
+	 margin: 0;
+	}
+	
+ .info-interno-curso .lista-esquerda{ text-align: left;}
+ .info-interno-curso .lista-direita{ text-align: right; }
+  .info-interno-curso .lista-direita li{   }
+
+
+.amarelo{background:#F4CD0B}
+
+
+ 
+
+.logotipo{  }
+	
+.menu-horizontal{ list-style:none}
+.menu-horizontal li{ float:left}
+.logotipo:hover{ }
+
+
+.menu-horizontal li a{ color: #aaa;
+    display: inline-block;
+    font-size: 0.7em;
+    padding: 14px 14px 13px;
+    text-decoration: none;
+    text-transform: uppercase; 
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);}
+.menu-horizontal li a:hover{color: #FFFFFF ;}
+  
+.menu-horizontal a:hover{
+    color: #FFFFFF  }
+.menu-horizontal li a.active{ background:url("../img/base/seta.png") no-repeat scroll bottom center transparent;
+    color: #FFFFFF  }
+
+.menu-grande li a{font-size: 0.8em;}	
+.menu-pequeno li a,.menu-pequeno li a:hover, .menu-pequeno li a.active{background:none; 	text-shadow:none; color:#1382b3}
+.menu-pequeno li a:hover,.menu-pequeno li a:hover, .menu-pequeno li a:hover{color:#0c5b77  }	 
+	.menu-horizontal{margin: 0;}
+	
+	
+	.menu-principal{background: none repeat scroll 0 0 #4D4E4F;
+    margin: 0;
+	box-shadow: 1px 1px 3px black inset;}
+	.menu-principal li{}
+	.menu-principal li a{}
+	
+	.titulo-site{}
+	
+	
+	.top-search{}
+	
+	
+	
+	
+	.lista-este-modulo-contem{}
+	
+	
+	
+	
+	
+/* Vitrine ================================================================= */
+	section#vitrine{}
+		section#vitrine article{  float: left;    margin-bottom: 40px;}
+
+	
